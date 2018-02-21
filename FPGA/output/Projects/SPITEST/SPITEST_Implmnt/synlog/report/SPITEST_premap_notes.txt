@@ -1,0 +1,13 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance SPI_DONE (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN225 |Writing default property annotation file D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST.sap.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[7] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[6] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[5] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[4] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[3] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[2] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[1] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[0] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance MOSI_latched (in view: work.spi_slave(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.

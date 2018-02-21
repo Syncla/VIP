@@ -1,0 +1,47 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+---------------------------------------------------------------------
+########   Utilization report for  Top level view:   Blink   ########
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     24                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Blink:	24 (24.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       45                 100 %                
+CARRYS     21                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block Blink:	66 (66.67 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     3                  100 %                
+=================================================
+Total IO PADS in the block Blink:	3 (3.03 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   mypll   ########
+Instance path:   Blink.mypll                               
+===========================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  33.3 %               
+=================================================
+Total IO PADS in the block Blink.mypll:	1 (1.01 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

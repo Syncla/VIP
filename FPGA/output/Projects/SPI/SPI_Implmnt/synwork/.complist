@@ -1,0 +1,2 @@
+
+: 0 work.SPI_TEST_MODULE "D:\FPGA Code\SPI\testSPI2.vhd" 232 7 work.spi_slave work.mypll 

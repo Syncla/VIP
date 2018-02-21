@@ -1,0 +1,108 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 16:52:36
+
+* File Generated:     Jan 19 2018 14:26:25
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40UP
+    Device:        iCE40UP5K
+    Package:       SG48
+
+Design statistics:
+------------------
+    FFs:                  24
+    LUTs:                 47
+    RAMs:                 0
+    IOBs:                 2
+    GBs:                  1
+    PLLs:                 1
+    Warm Boots:           0
+    SPIs:                 0
+    I2Cs:                 0
+    HFOSCs:               0
+    LFOSCs:               0
+    RGBA_DRVs:            0
+    LEDDA_IPs:            0
+    DSPs:                 0
+    SPRAMs:               0
+    FILTER_50NSs:         0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 48/5280
+        Combinational Logic Cells: 24       out of   5280      0.454545%
+        Sequential Logic Cells:    24       out of   5280      0.454545%
+        Logic Tiles:               10       out of   660       1.51515%
+    Registers: 
+        Logic Registers:           24       out of   5280      0.454545%
+        IO Registers:              0        out of   480       0
+    Block RAMs:                    0        out of   30        0%
+    Warm Boots:                    0        out of   1         0%
+    SPIs:                          0        out of   2         0%
+    I2Cs:                          0        out of   2         0%
+    HFOSCs:                        0        out of   1         0%
+    LFOSCs:                        0        out of   1         0%
+    RGBA_DRVs:                     0        out of   1         0%
+    LEDDA_IPs:                     0        out of   1         0%
+    DSPs:                          0        out of   8         0%
+    SPRAMs:                        0        out of   4         0%
+    FILTER_50NSs:                  0        out of   2         0%
+    Pins:
+        Input Pins:                0        out of   39        0%
+        Output Pins:               2        out of   39        5.12821%
+        InOut Pins:                0        out of   39        0%
+    Global Buffers:                1        out of   8         12.5%
+    PLLs:                          1        out of   1         100%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 0        out of   0         0%
+    Bank 1: 0        out of   0         0%
+    Bank 0: 0        out of   17        0%
+    Bank 2: 2        out of   22        9.09091%
+
+Detailed I/O Info:
+------------------
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    44          Output     SB_LVCMOS    No       2        Simple Output  clk  
+    45          Output     SB_LVCMOS    No       2        Simple Output  led  
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name
+    -------------  -------  ---------  ------  -----------
+    5              2                   25      clk_c_g  
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 6 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile      323 out of 110555      0.292162%
+                          Span 4        8 out of  23008      0.0347705%
+                         Span 12        3 out of   4464      0.0672043%
+                  Global network        1 out of      8      12.5%
+      Vertical Inter-LUT Connect        8 out of   4620      0.17316%
+

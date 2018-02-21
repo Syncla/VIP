@@ -1,0 +1,5 @@
+@W: FX1039 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|User-specified initial value defined for instance tx[7:0] is being ignored. 
+@W: FX1039 :"d:\fpga code\spi\testspi2.vhd":283:32:283:34|User-specified initial value defined for instance LEDG is being ignored. 
+@W: FX1039 :"d:\fpga code\spi\testspi2.vhd":283:32:283:34|User-specified initial value defined for instance LEDR is being ignored. 
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|Removing instance tx[0] because it is equivalent to instance LEDG. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MT420 |Found inferred clock SPI_TEST_MODULE|clk with period 83.33ns. Please declare a user-defined clock on object "p:clk"

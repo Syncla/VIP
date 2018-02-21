@@ -1,0 +1,47 @@
+ble_pack spi.SS_old_RNIBOQN3_LC_5 {spi.SS_old_RNIBOQN3}
+ble_pack spi.index[0]_LC_15 {spi.index[0], spi.index_RNO[0]}
+ble_pack spi.index_RNI57R91[2]_LC_14 {spi.index_RNI57R91[2]}
+ble_pack spi.index[1]_LC_17 {spi.index[1], spi.index_RNO[1]}
+ble_pack spi.SCLK_old_RNI5H8V1_LC_0 {spi.SCLK_old_RNI5H8V1}
+ble_pack spi.SS_latched_LC_31 {spi.SS_latched, spi.SS_latched_THRU_LUT4_0}
+ble_pack spi.index[2]_LC_18 {spi.index[2], spi.index_RNO[2]}
+ble_pack spi.index_RNO_0[2]_LC_16 {spi.index_RNO_0[2]}
+clb_pack PLB_0 {spi.SS_old_RNIBOQN3_LC_5, spi.index[0]_LC_15, spi.index_RNI57R91[2]_LC_14, spi.index[1]_LC_17, spi.SCLK_old_RNI5H8V1_LC_0, spi.SS_latched_LC_31, spi.index[2]_LC_18, spi.index_RNO_0[2]_LC_16}
+ble_pack spi.SCLK_old_RNIKH0V_LC_1 {spi.SCLK_old_RNIKH0V}
+ble_pack spi.SCLK_old_LC_30 {spi.SCLK_old, spi.SCLK_old_THRU_LUT4_0}
+ble_pack spi.SCLK_latched_LC_29 {spi.SCLK_latched, spi.SCLK_latched_THRU_LUT4_0}
+ble_pack spi.SCLK_old_RNIRCN41_LC_2 {spi.SCLK_old_RNIRCN41}
+ble_pack LEDR_LC_20 {LEDR, LEDRZ0_THRU_LUT4_0}
+ble_pack spi.SPI_DONE_LC_3 {spi.SPI_DONE, spi.SPI_DONE_RNO}
+ble_pack spi.SPI_DONE_RNO_0_LC_4 {spi.SPI_DONE_RNO_0}
+ble_pack spi.SS_old_LC_32 {spi.SS_old, spi.SS_old_THRU_LUT4_0}
+clb_pack PLB_1 {spi.SCLK_old_RNIKH0V_LC_1, spi.SCLK_old_LC_30, spi.SCLK_latched_LC_29, spi.SCLK_old_RNIRCN41_LC_2, LEDR_LC_20, spi.SPI_DONE_LC_3, spi.SPI_DONE_RNO_0_LC_4, spi.SS_old_LC_32}
+ble_pack spi.TxData[1]_LC_7 {spi.TxData[1], spi.TxData_RNO[1]}
+ble_pack spi.TxData[2]_LC_8 {spi.TxData[2], spi.TxData_RNO[2]}
+ble_pack spi.TxData[3]_LC_9 {spi.TxData[3], spi.TxData_RNO[3]}
+ble_pack spi.TxData[4]_LC_10 {spi.TxData[4], spi.TxData_RNO[4]}
+ble_pack spi.TxData[5]_LC_11 {spi.TxData[5], spi.TxData_RNO[5]}
+ble_pack spi.TxData[6]_LC_12 {spi.TxData[6], spi.TxData_RNO[6]}
+ble_pack spi.TxData[7]_LC_13 {spi.TxData[7], spi.TxData_RNO[7]}
+ble_pack spi.TxData[0]_LC_6 {spi.TxData[0], spi.TxData_RNO[0]}
+clb_pack PLB_2 {spi.TxData[1]_LC_7, spi.TxData[2]_LC_8, spi.TxData[3]_LC_9, spi.TxData[4]_LC_10, spi.TxData[5]_LC_11, spi.TxData[6]_LC_12, spi.TxData[7]_LC_13, spi.TxData[0]_LC_6}
+ble_pack LEDG_LC_19 {LEDG, LEDGZ0_THRU_LUT4_0}
+ble_pack tx[1]_LC_33 {tx[1], tx_1_THRU_LUT4_0}
+ble_pack tx[2]_LC_34 {tx[2], tx_2_THRU_LUT4_0}
+ble_pack tx[3]_LC_35 {tx[3], tx_3_THRU_LUT4_0}
+ble_pack tx[4]_LC_36 {tx[4], tx_4_THRU_LUT4_0}
+ble_pack tx[5]_LC_37 {tx[5], tx_5_THRU_LUT4_0}
+ble_pack tx[6]_LC_38 {tx[6], tx_6_THRU_LUT4_0}
+ble_pack tx[7]_LC_39 {tx[7], tx_7_THRU_LUT4_0}
+clb_pack PLB_3 {LEDG_LC_19, tx[1]_LC_33, tx[2]_LC_34, tx[3]_LC_35, tx[4]_LC_36, tx[5]_LC_37, tx[6]_LC_38, tx[7]_LC_39}
+ble_pack spi.RxdData[0]_LC_21 {spi.RxdData[0], spi.RxdData_0_THRU_LUT4_0}
+ble_pack spi.RxdData[1]_LC_22 {spi.RxdData[1], spi.RxdData_1_THRU_LUT4_0}
+ble_pack spi.RxdData[2]_LC_23 {spi.RxdData[2], spi.RxdData_2_THRU_LUT4_0}
+ble_pack spi.RxdData[3]_LC_24 {spi.RxdData[3], spi.RxdData_3_THRU_LUT4_0}
+ble_pack spi.RxdData[4]_LC_25 {spi.RxdData[4], spi.RxdData_4_THRU_LUT4_0}
+ble_pack spi.RxdData[5]_LC_26 {spi.RxdData[5], spi.RxdData_5_THRU_LUT4_0}
+ble_pack spi.RxdData[6]_LC_27 {spi.RxdData[6], spi.RxdData_6_THRU_LUT4_0}
+ble_pack spi.RxdData[7]_LC_28 {spi.RxdData[7], spi.RxdData_7_THRU_LUT4_0}
+clb_pack PLB_4 {spi.RxdData[0]_LC_21, spi.RxdData[1]_LC_22, spi.RxdData[2]_LC_23, spi.RxdData[3]_LC_24, spi.RxdData[4]_LC_25, spi.RxdData[5]_LC_26, spi.RxdData[6]_LC_27, spi.RxdData[7]_LC_28}
+ble_pack LC_40 {CONSTANT_ONE_LUT4}
+clb_pack PLB_5 {LC_40}

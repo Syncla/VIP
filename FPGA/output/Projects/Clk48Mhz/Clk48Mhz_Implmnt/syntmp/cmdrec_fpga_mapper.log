@@ -1,0 +1,14 @@
+D:\ICEcube2\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt   -part iCE40UP5K  -package SG48    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synlog\report\Clk48Mhz_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.edf   -autoconstraint  -freq 1.000   D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_prem.srd  -sap  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.sap  -otap  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.tap  -omap  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.map  -devicelib  D:\ICEcube2\synpbase\lib\generic\sb_ice40.v  -sap  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.sap  -ologparam  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\syntmp\Clk48Mhz.plg  -osyn  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.srm  -prjdir  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\  -prjname  Clk48Mhz_syn  -log  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synlog\Clk48Mhz_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.edf|io:o|time:1516389966|size:49564|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_prem.srd|io:i|time:1516389965|size:5620|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.sap|io:o|time:1516389965|size:593|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.tap|io:o|time:0|size:0|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.map|io:o|time:1516389966|size:28|exec:0
+file:D:\ICEcube2\synpbase\lib\generic\sb_ice40.v|io:i|time:1516312664|size:224837|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.sap|io:o|time:1516389965|size:593|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\syntmp\Clk48Mhz.plg|io:o|time:1516389966|size:776|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.srm|io:o|time:1516389966|size:14914|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synlog\Clk48Mhz_fpga_mapper.srr|io:o|time:1516389966|size:27615|exec:0
+file:D:\ICEcube2\synpbase\bin\m_generic.exe|io:i|time:1516312661|size:17853440|exec:1
+file:D:\ICEcube2\synpbase\bin64\m_generic.exe|io:i|time:1516312663|size:32355840|exec:1

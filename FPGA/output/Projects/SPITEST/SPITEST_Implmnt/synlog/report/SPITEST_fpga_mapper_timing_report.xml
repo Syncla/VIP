@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\synlog\SPITEST_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>SPI_TEST_MODULE|clk</data>
+<data>12.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>mypll|PLLOUTCORE_derived_clock</data>
+<data>48.0 MHz</data>
+<data>211.9 MHz</data>
+<data>16.115</data>
+</row>
+</report_table>

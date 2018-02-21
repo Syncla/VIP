@@ -1,0 +1,65 @@
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":320:2:320:3|Removing sequential instance LEDR because it is equivalent to instance LEDG. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX1039 :"d:\fpga code\spi\testspi2.vhd":320:2:320:3|User-specified initial value defined for instance LEDG is being ignored. 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Unbuffered I/O spi.SCLK_latched which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Unbuffered I/O spi.TxData[7] which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Unbuffered I/O spi.SS_latched which could cause problems in P&R 
+@W: FX689 :"d:\icecube2\synpbase\lib\vhd\std.vhd":1:1:1:2|Unbuffered I/O false which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\icecube2\synpbase\lib\vhd\std.vhd":1:1:1:2|Unbuffered I/O false which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Unbuffered I/O spi.SCLK_latched which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Unbuffered I/O spi.TxData[7] which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Unbuffered I/O spi.SS_latched which could cause problems in P&R 
+@W: FX689 :"d:\icecube2\synpbase\lib\vhd\std.vhd":1:1:1:2|Unbuffered I/O false which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\icecube2\synpbase\lib\vhd\std.vhd":1:1:1:2|Unbuffered I/O false which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: FX689 :"d:\fpga code\spi\testspi2.vhd":189:0:189:9|Unbuffered I/O mypll_inst.mypll_inst which could cause problems in P&R 
+@W: MT420 |Found inferred clock SPI_TEST_MODULE|clk with period 83.33ns. Please declare a user-defined clock on object "p:clk"

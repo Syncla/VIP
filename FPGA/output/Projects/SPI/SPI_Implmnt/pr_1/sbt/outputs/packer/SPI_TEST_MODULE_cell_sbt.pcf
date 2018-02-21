@@ -1,0 +1,71 @@
+ble_pack CONSTANT_ONE_LUT4_LC_12_30_2 { CONSTANT_ONE_LUT4 }
+clb_pack LT_12_30 { CONSTANT_ONE_LUT4_LC_12_30_2 }
+set_location LT_12_30 12 30
+ble_pack LEDRZ0_LC_13_14_7 { LEDRZ0_THRU_LUT4_0, LEDR }
+clb_pack LT_13_14 { LEDRZ0_LC_13_14_7 }
+set_location LT_13_14 13 14
+ble_pack spi.TxData_1_LC_13_15_0 { spi.TxData_RNO[1], spi.TxData[1] }
+ble_pack spi.TxData_0_LC_13_15_5 { spi.TxData_RNO[0], spi.TxData[0] }
+clb_pack LT_13_15 { spi.TxData_1_LC_13_15_0, spi.TxData_0_LC_13_15_5 }
+set_location LT_13_15 13 15
+ble_pack LEDGZ0_LC_13_16_5 { LEDGZ0_THRU_LUT4_0, LEDG }
+ble_pack tx_1_LC_13_16_6 { tx_1_THRU_LUT4_0, tx[1] }
+clb_pack LT_13_16 { LEDGZ0_LC_13_16_5, tx_1_LC_13_16_6 }
+set_location LT_13_16 13 16
+ble_pack spi.RxdData_4_LC_14_14_1 { spi.RxdData_4_THRU_LUT4_0, spi.RxdData[4] }
+ble_pack spi.RxdData_5_LC_14_14_3 { spi.RxdData_5_THRU_LUT4_0, spi.RxdData[5] }
+ble_pack spi.RxdData_2_LC_14_14_4 { spi.RxdData_2_THRU_LUT4_0, spi.RxdData[2] }
+ble_pack spi.RxdData_3_LC_14_14_5 { spi.RxdData_3_THRU_LUT4_0, spi.RxdData[3] }
+ble_pack spi.RxdData_7_LC_14_14_6 { spi.RxdData_7_THRU_LUT4_0, spi.RxdData[7] }
+ble_pack spi.RxdData_6_LC_14_14_7 { spi.RxdData_6_THRU_LUT4_0, spi.RxdData[6] }
+clb_pack LT_14_14 { spi.RxdData_4_LC_14_14_1, spi.RxdData_5_LC_14_14_3, spi.RxdData_2_LC_14_14_4, spi.RxdData_3_LC_14_14_5, spi.RxdData_7_LC_14_14_6, spi.RxdData_6_LC_14_14_7 }
+set_location LT_14_14 14 14
+ble_pack spi.SPI_DONE_RNO_0_LC_14_15_1 { spi.SPI_DONE_RNO_0 }
+ble_pack spi.SPI_DONE_LC_14_15_2 { spi.SPI_DONE_RNO, spi.SPI_DONE }
+ble_pack spi.SCLK_old_RNIKH0V_LC_14_15_6 { spi.SCLK_old_RNIKH0V }
+ble_pack spi.SCLK_old_RNIRCN41_LC_14_15_7 { spi.SCLK_old_RNIRCN41 }
+clb_pack LT_14_15 { spi.SPI_DONE_RNO_0_LC_14_15_1, spi.SPI_DONE_LC_14_15_2, spi.SCLK_old_RNIKH0V_LC_14_15_6, spi.SCLK_old_RNIRCN41_LC_14_15_7 }
+set_location LT_14_15 14 15
+ble_pack spi.index_RNI57R91_2_LC_14_16_0 { spi.index_RNI57R91[2] }
+ble_pack spi.SCLK_old_RNI5H8V1_LC_14_16_1 { spi.SCLK_old_RNI5H8V1 }
+ble_pack spi.SS_old_RNIBOQN3_LC_14_16_2 { spi.SS_old_RNIBOQN3 }
+ble_pack spi.index_0_LC_14_16_3 { spi.index_RNO[0], spi.index[0] }
+ble_pack spi.SS_latched_LC_14_16_4 { spi.SS_latched_THRU_LUT4_0, spi.SS_latched }
+ble_pack spi.SS_old_LC_14_16_5 { spi.SS_old_THRU_LUT4_0, spi.SS_old }
+ble_pack spi.SCLK_old_LC_14_16_6 { spi.SCLK_old_THRU_LUT4_0, spi.SCLK_old }
+ble_pack spi.index_1_LC_14_16_7 { spi.index_RNO[1], spi.index[1] }
+clb_pack LT_14_16 { spi.index_RNI57R91_2_LC_14_16_0, spi.SCLK_old_RNI5H8V1_LC_14_16_1, spi.SS_old_RNIBOQN3_LC_14_16_2, spi.index_0_LC_14_16_3, spi.SS_latched_LC_14_16_4, spi.SS_old_LC_14_16_5, spi.SCLK_old_LC_14_16_6, spi.index_1_LC_14_16_7 }
+set_location LT_14_16 14 16
+ble_pack tx_4_LC_15_14_0 { tx_4_THRU_LUT4_0, tx[4] }
+ble_pack tx_3_LC_15_14_3 { tx_3_THRU_LUT4_0, tx[3] }
+ble_pack tx_6_LC_15_14_4 { tx_6_THRU_LUT4_0, tx[6] }
+ble_pack tx_5_LC_15_14_5 { tx_5_THRU_LUT4_0, tx[5] }
+ble_pack tx_2_LC_15_14_6 { tx_2_THRU_LUT4_0, tx[2] }
+ble_pack tx_7_LC_15_14_7 { tx_7_THRU_LUT4_0, tx[7] }
+clb_pack LT_15_14 { tx_4_LC_15_14_0, tx_3_LC_15_14_3, tx_6_LC_15_14_4, tx_5_LC_15_14_5, tx_2_LC_15_14_6, tx_7_LC_15_14_7 }
+set_location LT_15_14 15 14
+ble_pack spi.TxData_5_LC_15_15_0 { spi.TxData_RNO[5], spi.TxData[5] }
+ble_pack spi.TxData_7_LC_15_15_1 { spi.TxData_RNO[7], spi.TxData[7] }
+ble_pack spi.TxData_4_LC_15_15_4 { spi.TxData_RNO[4], spi.TxData[4] }
+ble_pack spi.TxData_3_LC_15_15_5 { spi.TxData_RNO[3], spi.TxData[3] }
+ble_pack spi.TxData_6_LC_15_15_6 { spi.TxData_RNO[6], spi.TxData[6] }
+ble_pack spi.TxData_2_LC_15_15_7 { spi.TxData_RNO[2], spi.TxData[2] }
+clb_pack LT_15_15 { spi.TxData_5_LC_15_15_0, spi.TxData_7_LC_15_15_1, spi.TxData_4_LC_15_15_4, spi.TxData_3_LC_15_15_5, spi.TxData_6_LC_15_15_6, spi.TxData_2_LC_15_15_7 }
+set_location LT_15_15 15 15
+ble_pack spi.index_RNO_0_2_LC_15_16_0 { spi.index_RNO_0[2] }
+ble_pack spi.index_2_LC_15_16_1 { spi.index_RNO[2], spi.index[2] }
+ble_pack spi.SCLK_latched_LC_15_16_2 { spi.SCLK_latched_THRU_LUT4_0, spi.SCLK_latched }
+clb_pack LT_15_16 { spi.index_RNO_0_2_LC_15_16_0, spi.index_2_LC_15_16_1, spi.SCLK_latched_LC_15_16_2 }
+set_location LT_15_16 15 16
+ble_pack spi.RxdData_1_LC_15_17_2 { spi.RxdData_1_THRU_LUT4_0, spi.RxdData[1] }
+ble_pack spi.RxdData_0_LC_15_17_7 { spi.RxdData_0_THRU_LUT4_0, spi.RxdData[0] }
+clb_pack LT_15_17 { spi.RxdData_1_LC_15_17_2, spi.RxdData_0_LC_15_17_7 }
+set_location LT_15_17 15 17
+set_location mypll_inst.PLLOUTCORE_derived_clock_RNIF7IB 12 0
+set_io SCK 20
+set_io MOSI 26
+set_io MISO 32
+set_io LEDR 4
+set_io clk 35
+set_io SS 27
+set_io LEDG 3

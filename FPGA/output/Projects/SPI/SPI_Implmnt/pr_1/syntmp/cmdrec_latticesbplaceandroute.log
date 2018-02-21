@@ -1,0 +1,3 @@
+D:\ICEcube2\synpbase\bin\synplify_pro.exe  -batch  -tcl_shell  D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\pr_1\sbt_par.tcl  -log  sbt_par.log 
+rc:1 success:1 runtime:17
+file:D:\ICEcube2\synpbase\bin\synplify_pro.exe|io:i|time:1516312662|size:125440|exec:1

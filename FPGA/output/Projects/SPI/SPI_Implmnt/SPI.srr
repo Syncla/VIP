@@ -1,0 +1,576 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Mon Feb 05 19:20:21 2018
+
+#Implementation: SPI_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\SPI\testSPI2.vhd":232:7:232:21|Top entity is set to SPI_TEST_MODULE.
+File D:\FPGA Code\SPI\testSPI2.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\FPGA Code\SPI\testSPI2.vhd changed - recompiling
+@N: CD630 :"D:\FPGA Code\SPI\testSPI2.vhd":232:7:232:21|Synthesizing work.spi_test_module.behavioral.
+@W: CD277 :"D:\FPGA Code\SPI\testSPI2.vhd":270:4:270:11|Port direction mismatch between component and entity
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":282:8:282:15|Signal reset_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":288:8:288:12|Signal reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":289:8:289:13|Signal bypass is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\FPGA Code\SPI\testSPI2.vhd":29:7:29:15|Synthesizing work.spi_slave.behavioral.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":53:8:53:14|Signal sending is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.spi_slave.behavioral
+@N: CD630 :"D:\FPGA Code\SPI\testSPI2.vhd":135:7:135:11|Synthesizing work.mypll.behavior.
+@W: CD280 :"D:\FPGA Code\SPI\testSPI2.vhd":149:10:149:21|Unbound component SB_PLL40_PAD mapped to black box
+@N: CD630 :"D:\FPGA Code\SPI\testSPI2.vhd":149:10:149:21|Synthesizing work.sb_pll40_pad.syn_black_box.
+Post processing for work.sb_pll40_pad.syn_black_box
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:14|Signal openwire is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Signal openwirebus is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.mypll.behavior
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 0 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 1 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 2 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 3 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 4 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 5 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 6 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 7 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL240 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:14|Signal openwire is floating; a simulation mismatch is possible.
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Input extfeedback of instance mypll_inst is floating
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 0 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 1 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 2 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 3 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 4 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 5 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 6 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 7 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Input latchinputvalue of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Input sdi of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Input sclk of instance mypll_inst is floating
+Post processing for work.spi_test_module.behavioral
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 05 19:20:21 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\synwork\layer0.srs changed - recompiling
+@N: NF107 :"D:\FPGA Code\SPI\testSPI2.vhd":232:7:232:21|Selected library: work cell: SPI_TEST_MODULE view behavioral as top level
+@N: NF107 :"D:\FPGA Code\SPI\testSPI2.vhd":232:7:232:21|Selected library: work cell: SPI_TEST_MODULE view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 05 19:20:21 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 05 19:20:21 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\synwork\SPI_comp.srs changed - recompiling
+@N: NF107 :"D:\FPGA Code\SPI\testSPI2.vhd":232:7:232:21|Selected library: work cell: SPI_TEST_MODULE view behavioral as top level
+@N: NF107 :"D:\FPGA Code\SPI\testSPI2.vhd":232:7:232:21|Selected library: work cell: SPI_TEST_MODULE view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 05 19:20:22 2018
+
+###########################################################]
+# Mon Feb 05 19:20:23 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\SPI_scck.rpt 
+Printing clock  summary report in "D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\SPI_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|Removing sequential instance sendData because it is equivalent to instance byteDone. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|Removing sequential instance byteDone because it is equivalent to instance LEDR. To keep the instance, apply constraint syn_preserve=1 on the instance.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=30  set on top level netlist SPI_TEST_MODULE
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start                              Requested     Requested     Clock                                  Clock                   Clock
+Clock                              Frequency     Period        Type                                   Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------------------
+SPI_TEST_MODULE|clk                12.0 MHz      83.333        inferred                               Inferred_clkgroup_0     0    
+System                             12.0 MHz      83.333        system                                 system_clkgroup         0    
+mypll|PLLOUTCORE_derived_clock     48.0 MHz      20.833        derived (from SPI_TEST_MODULE|clk)     Inferred_clkgroup_0     35   
+===================================================================================================================================
+
+
+@N: MF203 |Set autoconstraint_io 
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\SPI.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 05 19:20:23 2018
+
+###########################################################]
+# Mon Feb 05 19:20:23 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+@N: MF203 |Set autoconstraint_io 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FX1039 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|User-specified initial value defined for instance tx[7:0] is being ignored. 
+@W: FX1039 :"d:\fpga code\spi\testspi2.vhd":283:32:283:34|User-specified initial value defined for instance LEDG is being ignored. 
+@W: FX1039 :"d:\fpga code\spi\testspi2.vhd":283:32:283:34|User-specified initial value defined for instance LEDR is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|Removing instance tx[0] because it is equivalent to instance LEDG. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    13.51ns		  19 /        34
+@N: FX1017 :"d:\fpga code\spi\testspi2.vhd":295:1:295:10|SB_GB inserted on the net outclk.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 34 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+============================== Non-Gated/Non-Generated Clocks ===============================
+Clock Tree ID     Driving Element           Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------------
+@K:CKID0001       mypll_inst.mypll_inst     SB_PLL40_PAD           34         LEDG           
+=============================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\synwork\SPI_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\SPI.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@W: MT420 |Found inferred clock SPI_TEST_MODULE|clk with period 83.33ns. Please declare a user-defined clock on object "p:clk"
+@N: MT615 |Found clock mypll|PLLOUTCORE_derived_clock with period 20.83ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Feb 05 19:20:24 2018
+#
+
+
+Top view:               SPI_TEST_MODULE
+Requested Frequency:    12.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 10.328
+
+                                   Requested     Estimated     Requested     Estimated                 Clock                                  Clock              
+Starting Clock                     Frequency     Frequency     Period        Period        Slack       Type                                   Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+SPI_TEST_MODULE|clk                12.0 MHz      NA            83.333        NA            DCM/PLL     inferred                               Inferred_clkgroup_0
+mypll|PLLOUTCORE_derived_clock     48.0 MHz      95.2 MHz      20.833        10.506        10.328      derived (from SPI_TEST_MODULE|clk)     Inferred_clkgroup_0
+System                             12.0 MHz      14.1 MHz      83.333        70.971        12.362      system                                 system_clkgroup    
+=================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                          |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                        Ending                          |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+System                          mypll|PLLOUTCORE_derived_clock  |  20.833      12.362  |  No paths    -      |  No paths    -      |  No paths    -    
+mypll|PLLOUTCORE_derived_clock  System                          |  20.833      12.269  |  No paths    -      |  No paths    -      |  No paths    -    
+mypll|PLLOUTCORE_derived_clock  mypll|PLLOUTCORE_derived_clock  |  20.833      10.328  |  No paths    -      |  No paths    -      |  No paths    -    
+=======================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+
+
+Input Ports: 
+
+Port     Starting            User           Arrival     Required           
+Name     Reference           Constraint     Time        Time         Slack 
+         Clock                                                             
+---------------------------------------------------------------------------
+MOSI     System (rising)     NA             0.000       12.362       12.362
+SCK      System (rising)     NA             0.000       12.362       12.362
+SS       System (rising)     NA             0.000       12.362       12.362
+clk      NA                  NA             NA          NA           NA    
+===========================================================================
+
+
+Output Ports: 
+
+Port     Starting                                    User           Arrival     Required           
+Name     Reference                                   Constraint     Time        Time         Slack 
+         Clock                                                                                     
+---------------------------------------------------------------------------------------------------
+LEDG     mypll|PLLOUTCORE_derived_clock (rising)     NA             8.564       20.833       12.269
+LEDR     mypll|PLLOUTCORE_derived_clock (rising)     NA             8.564       20.833       12.269
+MISO     mypll|PLLOUTCORE_derived_clock (rising)     NA             8.564       20.833       12.269
+===================================================================================================
+
+
+
+====================================
+Detailed Report for Clock: mypll|PLLOUTCORE_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                                Arrival           
+Instance             Reference                          Type        Pin     Net              Time        Slack 
+                     Clock                                                                                     
+---------------------------------------------------------------------------------------------------------------
+spi.SS_latched       mypll|PLLOUTCORE_derived_clock     SB_DFF      Q       SS_latched       0.796       10.328
+spi.index[0]         mypll|PLLOUTCORE_derived_clock     SB_DFF      Q       index[0]         0.796       10.400
+spi.index[1]         mypll|PLLOUTCORE_derived_clock     SB_DFF      Q       index[1]         0.796       10.431
+spi.index[2]         mypll|PLLOUTCORE_derived_clock     SB_DFF      Q       index[2]         0.796       10.524
+spi.SCLK_latched     mypll|PLLOUTCORE_derived_clock     SB_DFF      Q       SCLK_latched     0.796       12.143
+spi.SCLK_old         mypll|PLLOUTCORE_derived_clock     SB_DFF      Q       SCLK_old         0.796       12.153
+LEDG                 mypll|PLLOUTCORE_derived_clock     SB_DFFE     Q       LEDG_c           0.796       12.269
+LEDR                 mypll|PLLOUTCORE_derived_clock     SB_DFF      Q       LEDR_c           0.796       12.269
+spi.TxData[7]        mypll|PLLOUTCORE_derived_clock     SB_DFFE     Q       MISO_c           0.796       12.269
+spi.SS_old           mypll|PLLOUTCORE_derived_clock     SB_DFF      Q       SS_old           0.796       14.382
+===============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                                   Required           
+Instance          Reference                          Type        Pin      Net                Time         Slack 
+                  Clock                                                                                         
+----------------------------------------------------------------------------------------------------------------
+spi.index[0]      mypll|PLLOUTCORE_derived_clock     SB_DFF      D        index_7_0_i[0]     20.678       10.328
+spi.index[1]      mypll|PLLOUTCORE_derived_clock     SB_DFF      D        index_7_0_i[1]     20.678       10.421
+spi.index[2]      mypll|PLLOUTCORE_derived_clock     SB_DFF      D        index_7_0_i[2]     20.678       10.421
+spi.SPI_DONE      mypll|PLLOUTCORE_derived_clock     SB_DFF      D        SPI_DONE           20.678       12.257
+LEDG              mypll|PLLOUTCORE_derived_clock     Port        LEDG     LEDG               20.833       12.269
+LEDR              mypll|PLLOUTCORE_derived_clock     Port        LEDR     LEDR               20.833       12.269
+MISO              mypll|PLLOUTCORE_derived_clock     Port        MISO     MISO               20.833       12.269
+spi.TxData[1]     mypll|PLLOUTCORE_derived_clock     SB_DFFE     D        TxData_5[1]        20.678       14.082
+spi.TxData[2]     mypll|PLLOUTCORE_derived_clock     SB_DFFE     D        TxData_5[2]        20.678       14.082
+spi.TxData[3]     mypll|PLLOUTCORE_derived_clock     SB_DFFE     D        TxData_5[3]        20.678       14.082
+================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.678
+
+    - Propagation time:                      10.351
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     10.328
+
+    Number of logic level(s):                4
+    Starting point:                          spi.SS_latched / Q
+    Ending point:                            spi.index[0] / D
+    The start point is clocked by            mypll|PLLOUTCORE_derived_clock [rising] on pin C
+    The end   point is clocked by            mypll|PLLOUTCORE_derived_clock [rising] on pin C
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                          Type        Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+spi.SS_latched                SB_DFF      Q        Out     0.796     0.796       -         
+SS_latched                    Net         -        -       1.599     -           5         
+spi.index_RNI57R91[2]         SB_LUT4     I0       In      -         2.395       -         
+spi.index_RNI57R91[2]         SB_LUT4     O        Out     0.661     3.056       -         
+SPI_DONE_0_sqmuxa_2           Net         -        -       1.371     -           1         
+spi.SCLK_old_RNI5H8V1         SB_LUT4     I2       In      -         4.427       -         
+spi.SCLK_old_RNI5H8V1         SB_LUT4     O        Out     0.558     4.986       -         
+SPI_DONE_0_sqmuxa             Net         -        -       1.371     -           2         
+spi.SS_old_RNIBOQN3           SB_LUT4     I1       In      -         6.356       -         
+spi.SS_old_RNIBOQN3           SB_LUT4     O        Out     0.558     6.915       -         
+un1_SPI_DONE_0_sqmuxa_1_0     Net         -        -       1.371     -           3         
+spi.index_RNO[0]              SB_LUT4     I2       In      -         8.286       -         
+spi.index_RNO[0]              SB_LUT4     O        Out     0.558     8.844       -         
+index_7_0_i[0]                Net         -        -       1.507     -           1         
+spi.index[0]                  SB_DFF      D        In      -         10.351      -         
+===========================================================================================
+Total path delay (propagation time + setup) of 10.506 is 3.287(31.3%) logic and 7.219(68.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                 Arrival           
+Instance     Reference     Type     Pin      Net      Time        Slack 
+             Clock                                                      
+------------------------------------------------------------------------
+MOSI         System        Port     MOSI     MOSI     0.000       12.362
+SCK          System        Port     SCK      SCK      0.000       12.362
+SS           System        Port     SS       SS       0.000       12.362
+========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                    Required           
+Instance             Reference     Type       Pin     Net        Time         Slack 
+                     Clock                                                          
+------------------------------------------------------------------------------------
+spi.MOSI_latched     System        SB_DFF     D       MOSI_c     20.678       12.362
+spi.SCLK_latched     System        SB_DFF     D       SCK_c      20.678       12.362
+spi.SS_latched       System        SB_DFF     D       SS_c       20.678       12.362
+====================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.833
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         20.678
+
+    - Propagation time:                      8.316
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 12.362
+
+    Number of logic level(s):                1
+    Starting point:                          MOSI / MOSI
+    Ending point:                            spi.MOSI_latched / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            mypll|PLLOUTCORE_derived_clock [rising] on pin C
+
+Instance / Net                  Pin             Pin               Arrival     No. of    
+Name                 Type       Name            Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+MOSI                 Port       MOSI            In      0.000     0.000       -         
+MOSI                 Net        -               -       0.000     -           1         
+MOSI_ibuf            SB_IO      PACKAGE_PIN     In      -         0.000       -         
+MOSI_ibuf            SB_IO      D_IN_0          Out     1.520     1.520       -         
+MOSI_c               Net        -               -       6.797     -           1         
+spi.MOSI_latched     SB_DFF     D               In      -         8.316       -         
+========================================================================================
+Total path delay (propagation time + setup) of 8.472 is 1.675(19.8%) logic and 6.797(80.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+---------------------------------------
+Resource Usage Report for SPI_TEST_MODULE 
+
+Mapping to part: ice40up5ksg48
+Cell usage:
+GND             2 uses
+SB_DFF          10 uses
+SB_DFFE         24 uses
+SB_GB           1 use
+VCC             2 uses
+SB_LUT4         19 uses
+
+I/O ports: 7
+I/O primitives: 7
+SB_IO          6 uses
+SB_PLL40_PAD   1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   34 (0%)
+Total load per clock:
+   SPI_TEST_MODULE|clk: 1
+   mypll|PLLOUTCORE_derived_clock: 34
+
+@S |Mapping Summary:
+Total  LUTs: 19 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 19 = 19 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 05 19:20:24 2018
+
+###########################################################]

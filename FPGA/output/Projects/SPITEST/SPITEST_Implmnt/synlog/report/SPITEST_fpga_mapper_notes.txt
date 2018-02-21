@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance index[2:0] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance RxdData[7:0] (in view: work.spi_slave(behavioral)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance SS_old (in view: work.spi_slave(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":62:4:62:5|Removing sequential instance MOSI_latched (in view: work.spi_slave(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\fpga code\spi\testspi2.vhd":320:2:320:3|Removing sequential instance LEDG (in view: work.SPI_TEST_MODULE(behavioral)) because it does not drive other instances.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST.edf
+@N: MT615 |Found clock mypll|PLLOUTCORE_derived_clock with period 20.83ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

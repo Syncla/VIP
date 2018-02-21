@@ -1,0 +1,24 @@
+---------------------------------------
+Resource Usage Report for SPI_TEST_MODULE 
+
+Mapping to part: ice40up5ksg48
+Cell usage:
+GND             2 uses
+SB_DFF          3 uses
+SB_DFFSR        8 uses
+VCC             2 uses
+SB_LUT4         8 uses
+
+I/O ports: 7
+I/O primitives: 1
+SB_PLL40_PAD   1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   11 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 8 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 8 = 8 
+

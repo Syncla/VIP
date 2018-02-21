@@ -1,0 +1,50 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   SPI_TEST_MODULE   ########
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     11                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block SPI_TEST_MODULE:	11 (40.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block SPI_TEST_MODULE:	8 (29.63 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   mypll   ########
+Instance path:   SPI_TEST_MODULE.mypll                     
+===========================================================
+---------------------------------------------------------------
+########   Utilization report for  cell:   spi_slave   ########
+Instance path:   SPI_TEST_MODULE.spi_slave                     
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     11                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block SPI_TEST_MODULE.spi_slave:	11 (40.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block SPI_TEST_MODULE.spi_slave:	8 (29.63 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

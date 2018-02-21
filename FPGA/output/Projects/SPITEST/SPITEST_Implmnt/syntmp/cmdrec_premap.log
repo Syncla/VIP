@@ -1,0 +1,13 @@
+D:\ICEcube2\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt   -part iCE40UP5K  -package SG48    -maxfan 10000 -RWCheckOnRam 0 -block -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\synlog\report\SPITEST_premap.xml  -oedif  D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST.edf  -conchk_prepass  D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST_cck.rpt   -freq 12.000   D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\synwork\SPITEST_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\synwork\SPITEST_prem.srd  -qsap  D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST.sap  -devicelib  D:\ICEcube2\synpbase\lib\generic\sb_ice40.v  -ologparam  D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\syntmp\SPITEST.plg  -osyn  D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\synwork\SPITEST_prem.srd  -prjdir  D:\ICEcube2\sbt_backend\Projects\SPITEST\  -prjname  SPITEST_syn  -log  D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST_cck.srr 
+rc:0 success:1 runtime:0
+file:D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST.edf|io:o|time:1517868772|size:16854|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST_cck.rpt|io:o|time:1517868775|size:2318|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\synwork\SPITEST_mult.srs|io:i|time:1517868771|size:2863|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\synwork\SPITEST_prem.srd|io:o|time:1517868775|size:8580|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST.sap|io:o|time:1517868775|size:859|exec:0
+file:D:\ICEcube2\synpbase\lib\generic\sb_ice40.v|io:i|time:1516312664|size:224837|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\syntmp\SPITEST.plg|io:o|time:1517868775|size:0|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\synwork\SPITEST_prem.srd|io:o|time:1517868775|size:8580|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\SPITEST\SPITEST_Implmnt\SPITEST_cck.srr|io:o|time:1517868775|size:5564|exec:0
+file:D:\ICEcube2\synpbase\bin\m_generic.exe|io:i|time:1516312661|size:17853440|exec:1
+file:D:\ICEcube2\synpbase\bin64\m_generic.exe|io:i|time:1516312663|size:32355840|exec:1

@@ -1,0 +1,30 @@
+@W: CD277 :"D:\FPGA Code\SPI\testSPI2.vhd":270:4:270:11|Port direction mismatch between component and entity
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":282:8:282:15|Signal reset_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":288:8:288:12|Signal reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":289:8:289:13|Signal bypass is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":53:8:53:14|Signal sending is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD280 :"D:\FPGA Code\SPI\testSPI2.vhd":149:10:149:21|Unbound component SB_PLL40_PAD mapped to black box
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:14|Signal openwire is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Signal openwirebus is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 0 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 1 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 2 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 3 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 4 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 5 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 6 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":148:7:148:17|Bit 7 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL240 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:14|Signal openwire is floating; a simulation mismatch is possible.
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Input extfeedback of instance mypll_inst is floating
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 0 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 1 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 2 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 3 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 4 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 5 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 6 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Bit 7 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Input latchinputvalue of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Input sdi of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":190:0:190:9|Input sclk of instance mypll_inst is floating
+

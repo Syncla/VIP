@@ -1,0 +1,10 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MF203 |Set autoconstraint_io 
+@N: FX1017 :"d:\fpga code\spi\testspi2.vhd":295:1:295:10|SB_GB inserted on the net outclk.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\SPI.edf
+@N: MT615 |Found clock mypll|PLLOUTCORE_derived_clock with period 20.83ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

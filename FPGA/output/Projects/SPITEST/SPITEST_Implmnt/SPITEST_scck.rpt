@@ -1,0 +1,29 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 1612R, built Dec  5 2016
+# Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+# Written on Mon Feb 05 17:12:55 2018
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "SPI_TEST_MODULE"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                              Requested     Requested     Clock                                  Clock                   Clock
+Clock                              Frequency     Period        Type                                   Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------------------
+SPI_TEST_MODULE|clk                12.0 MHz      83.333        inferred                               Inferred_clkgroup_0     0    
+mypll|PLLOUTCORE_derived_clock     48.0 MHz      20.833        derived (from SPI_TEST_MODULE|clk)     Inferred_clkgroup_0     26   
+===================================================================================================================================

@@ -1,0 +1,34 @@
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":97:7:97:11|Synthesizing work.blink.behavior.
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":119:10:119:14|Signal reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":120:9:120:14|Signal bypass is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Synthesizing work.mypll.behavior.
+@W: CD280 :"D:\FPGA Code\blinky\blinky.vhdl":19:10:19:21|Unbound component SB_PLL40_PAD mapped to black box
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":19:10:19:21|Synthesizing work.sb_pll40_pad.syn_black_box.
+Post processing for work.sb_pll40_pad.syn_black_box
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":17:7:17:14|Signal openwire is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Signal openwirebus is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.mypll.behavior
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 0 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 1 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 2 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 3 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 4 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 5 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 6 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 7 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL240 :"D:\FPGA Code\blinky\blinky.vhdl":17:7:17:14|Signal openwire is floating; a simulation mismatch is possible.
+@W: CL167 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Input extfeedback of instance mypll_inst is floating
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 0 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 1 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 2 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 3 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 4 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 5 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 6 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 7 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL167 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Input latchinputvalue of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Input sdi of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Input sclk of instance mypll_inst is floating
+Post processing for work.blink.behavior
+@N: CL189 :"D:\FPGA Code\blinky\blinky.vhdl":130:8:130:9|Register bit count(23) is always 0.
+@W: CL260 :"D:\FPGA Code\blinky\blinky.vhdl":130:8:130:9|Pruning register bit 23 of count(23 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.

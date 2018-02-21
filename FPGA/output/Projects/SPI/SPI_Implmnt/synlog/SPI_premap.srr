@@ -1,0 +1,67 @@
+# Mon Feb 05 19:20:23 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\SPI_scck.rpt 
+Printing clock  summary report in "D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\SPI_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|Removing sequential instance sendData because it is equivalent to instance byteDone. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|Removing sequential instance byteDone because it is equivalent to instance LEDR. To keep the instance, apply constraint syn_preserve=1 on the instance.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=30  set on top level netlist SPI_TEST_MODULE
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start                              Requested     Requested     Clock                                  Clock                   Clock
+Clock                              Frequency     Period        Type                                   Group                   Load 
+-----------------------------------------------------------------------------------------------------------------------------------
+SPI_TEST_MODULE|clk                12.0 MHz      83.333        inferred                               Inferred_clkgroup_0     0    
+System                             12.0 MHz      83.333        system                                 system_clkgroup         0    
+mypll|PLLOUTCORE_derived_clock     48.0 MHz      20.833        derived (from SPI_TEST_MODULE|clk)     Inferred_clkgroup_0     35   
+===================================================================================================================================
+
+
+@N: MF203 |Set autoconstraint_io 
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\ICEcube2\sbt_backend\Projects\SPI\SPI_Implmnt\SPI.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 05 19:20:23 2018
+
+###########################################################]
