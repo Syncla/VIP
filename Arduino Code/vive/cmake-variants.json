@@ -1,0 +1,33 @@
+{
+    "buildType": {
+        "default$": "teensy",
+        "description$": "the build type to use",
+        "teensy": {
+            "oneWordSummary$": "Teensy",
+            "description$": "Create firmware for Teensy",
+            "buildType": "Debug",
+            "settings": {
+                "PLATFORM": "Teensy"
+            }
+        },
+        "particle": {
+            "oneWordSummary$": "Photon",
+            "description$": "Create library for Particle Photon",
+            "buildType": "Debug",
+            "settings": {
+                "PLATFORM": "Particle",
+                "PARTICLE_PLATFORM": "photon"
+            }
+        },
+        "test": {
+            "oneWordSummary$": "Test",
+            "description$": "Test the project",
+            "buildType": "Debug",
+            "settings": {
+                "PLATFORM": "Host_Test",
+                "CMAKE_C_COMPILER": "/usr/local/bin/gcc-6",
+                "CMAKE_CXX_COMPILER": "/usr/local/bin/g++-6"
+            }
+        }
+    }
+}

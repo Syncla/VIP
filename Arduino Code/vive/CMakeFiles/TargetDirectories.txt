@@ -1,0 +1,11 @@
+C:/Users/vinay/OneDrive/VIP/vive-diy/CMakeFiles/edit_cache.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/CMakeFiles/rebuild_cache.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/platform-teensy/CMakeFiles/edit_cache.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/platform-teensy/CMakeFiles/teensy-core.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/platform-teensy/CMakeFiles/vive-diy-position-sensor.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/platform-teensy/CMakeFiles/vive-diy-position-sensor-firmware.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/platform-teensy/CMakeFiles/vive-diy-position-sensor-source.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/platform-teensy/CMakeFiles/rebuild_cache.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/src/CMakeFiles/edit_cache.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/src/CMakeFiles/sensor-core.dir
+C:/Users/vinay/OneDrive/VIP/vive-diy/src/CMakeFiles/rebuild_cache.dir
