@@ -1,0 +1,7 @@
+INPUT  SCK 	 location (19, 0, 1) 	 20 	 
+INPUT  MOSI 	 location (18, 31, 0) 	 26 	 
+OUTPUT MISO 	 location (16, 31, 0) 	 32 	 
+OUTPUT LEDR 	 location (9, 0, 0) 	 4 	 
+INPUT  clk 	 location (12, 31, 1) 	 35 	 
+INPUT  SS 	 location (18, 31, 1) 	 27 	 
+OUTPUT LEDG 	 location (9, 0, 1) 	 3 	 

@@ -1,0 +1,91 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\SPI\testSPI2.vhd":231:7:231:21|Top entity is set to SPI_TEST_MODULE.
+Options changed - recompiling
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :"D:\FPGA Code\SPI\testSPI2.vhd":231:7:231:21|Synthesizing work.spi_test_module.behavioral.
+@W: CD279 :"D:\FPGA Code\SPI\testSPI2.vhd":273:1:273:4|Port busy of component spi_slave not found on corresponding entity
+@W: CD730 :"D:\FPGA Code\SPI\testSPI2.vhd":307:1:307:3|Component declaration has 11 ports but entity declares 10 ports
+@W: CD326 :"D:\FPGA Code\SPI\testSPI2.vhd":307:1:307:3|Port spi_done of entity work.spi_slave is unconnected. If a port needs to remain unconnected, use the keyword open.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":282:8:282:13|Signal action is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":284:8:284:11|Signal done is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":286:8:286:11|Signal busy is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":287:8:287:15|Signal reset_in is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":291:8:291:12|Signal reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":292:8:292:13|Signal bypass is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\FPGA Code\SPI\testSPI2.vhd":29:7:29:15|Synthesizing work.spi_slave.behavioral.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":53:8:53:14|Signal sending is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.spi_slave.behavioral
+@N: CD630 :"D:\FPGA Code\SPI\testSPI2.vhd":134:7:134:11|Synthesizing work.mypll.behavior.
+@W: CD280 :"D:\FPGA Code\SPI\testSPI2.vhd":148:10:148:21|Unbound component SB_PLL40_PAD mapped to black box
+@N: CD630 :"D:\FPGA Code\SPI\testSPI2.vhd":148:10:148:21|Synthesizing work.sb_pll40_pad.syn_black_box.
+Post processing for work.sb_pll40_pad.syn_black_box
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":146:7:146:14|Signal openwire is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Signal openwirebus is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.mypll.behavior
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Bit 0 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Bit 1 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Bit 2 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Bit 3 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Bit 4 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Bit 5 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Bit 6 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\SPI\testSPI2.vhd":147:7:147:17|Bit 7 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL240 :"D:\FPGA Code\SPI\testSPI2.vhd":146:7:146:14|Signal openwire is floating; a simulation mismatch is possible.
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Input extfeedback of instance mypll_inst is floating
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Bit 0 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Bit 1 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Bit 2 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Bit 3 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Bit 4 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Bit 5 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Bit 6 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Bit 7 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Input latchinputvalue of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Input sdi of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\SPI\testSPI2.vhd":189:0:189:9|Input sclk of instance mypll_inst is floating
+Post processing for work.spi_test_module.behavioral
+@W: CL240 :"D:\FPGA Code\SPI\testSPI2.vhd":284:8:284:11|Signal done is floating; a simulation mismatch is possible.
+@N: CL189 :"D:\FPGA Code\SPI\testSPI2.vhd":320:2:320:3|Register bit sendData is always 0.
+@W: CL279 :"D:\FPGA Code\SPI\testSPI2.vhd":320:2:320:3|Pruning register bits 7 to 1 of tx(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"D:\FPGA Code\SPI\testSPI2.vhd":320:2:320:3|Register bit tx(0) is always 0.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 05 17:12:49 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\FPGA Code\SPI\testSPI2.vhd":231:7:231:21|Selected library: work cell: SPI_TEST_MODULE view behavioral as top level
+@N: NF107 :"D:\FPGA Code\SPI\testSPI2.vhd":231:7:231:21|Selected library: work cell: SPI_TEST_MODULE view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 05 17:12:49 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Feb 05 17:12:50 2018
+
+###########################################################]

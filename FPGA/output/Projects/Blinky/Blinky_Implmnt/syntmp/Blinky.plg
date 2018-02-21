@@ -1,0 +1,12 @@
+@P:  Worst Slack : -1.577
+@P:  Blink|clk - Estimated Frequency : 95.1 MHz
+@P:  Blink|clk - Requested Frequency : 111.9 MHz
+@P:  Blink|clk - Estimated Period : 10.516
+@P:  Blink|clk - Requested Period : 8.939
+@P:  Blink|clk - Slack : -1.577
+@P: Blink Part : ice40up5ksg48
+@P: Blink I/O primitives : 2
+@P: Blink I/O Register bits : 0
+@P: Blink Register bits (Non I/O) : 24 (0%)
+@P: Blink Total Luts : 45 (0%)
+@P:  CPU Time : 0h:00m:00s

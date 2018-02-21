@@ -1,0 +1,82 @@
+set_location CONSTANT_ONE_LUT4 12 30 2 #SB_LUT4
+set_location tx_7_THRU_LUT4_0 15 14 7 #SB_LUT4
+set_location tx_6_THRU_LUT4_0 15 14 4 #SB_LUT4
+set_location tx_5_THRU_LUT4_0 15 14 5 #SB_LUT4
+set_location tx_4_THRU_LUT4_0 15 14 0 #SB_LUT4
+set_location tx_3_THRU_LUT4_0 15 14 3 #SB_LUT4
+set_location tx_2_THRU_LUT4_0 15 14 6 #SB_LUT4
+set_location tx_1_THRU_LUT4_0 13 16 6 #SB_LUT4
+set_location spi.SS_old_THRU_LUT4_0 14 16 5 #SB_LUT4
+set_location spi.SS_latched_THRU_LUT4_0 14 16 4 #SB_LUT4
+set_location spi.SCLK_old_THRU_LUT4_0 14 16 6 #SB_LUT4
+set_location spi.SCLK_latched_THRU_LUT4_0 15 16 2 #SB_LUT4
+set_location spi.RxdData_7_THRU_LUT4_0 14 14 6 #SB_LUT4
+set_location spi.RxdData_6_THRU_LUT4_0 14 14 7 #SB_LUT4
+set_location spi.RxdData_5_THRU_LUT4_0 14 14 3 #SB_LUT4
+set_location spi.RxdData_4_THRU_LUT4_0 14 14 1 #SB_LUT4
+set_location spi.RxdData_3_THRU_LUT4_0 14 14 5 #SB_LUT4
+set_location spi.RxdData_2_THRU_LUT4_0 14 14 4 #SB_LUT4
+set_location spi.RxdData_1_THRU_LUT4_0 15 17 2 #SB_LUT4
+set_location spi.RxdData_0_THRU_LUT4_0 15 17 7 #SB_LUT4
+set_location LEDRZ0_THRU_LUT4_0 13 14 7 #SB_LUT4
+set_location LEDGZ0_THRU_LUT4_0 13 16 5 #SB_LUT4
+set_location tx[6] 15 14 4 #SB_DFFE
+set_location spi.SS_old_RNIBOQN3 14 16 2 #SB_LUT4
+set_location spi.RxdData[4] 14 14 1 #SB_DFFE
+set_location spi.TxData_RNO[1] 13 15 0 #SB_LUT4
+set_location spi.TxData[7] 15 15 1 #SB_DFFE
+set_location spi.SPI_DONE_RNO_0 14 15 1 #SB_LUT4
+set_location spi.TxData_RNO[6] 15 15 6 #SB_LUT4
+set_location spi.TxData[0] 13 15 5 #SB_DFFE
+set_location spi.RxdData[6] 14 14 7 #SB_DFFE
+set_location tx[2] 15 14 6 #SB_DFFE
+set_location spi.index[1] 14 16 7 #SB_DFF
+set_location spi.TxData_RNO[4] 15 15 4 #SB_LUT4
+set_location spi.TxData[2] 15 15 7 #SB_DFFE
+set_location spi.SPI_DONE_RNO 14 15 2 #SB_LUT4
+set_location spi.SCLK_old_RNIKH0V 14 15 6 #SB_LUT4
+set_location spi.RxdData[1] 15 17 2 #SB_DFFE
+set_location spi.index_RNO[1] 14 16 7 #SB_LUT4
+set_location spi.index_RNO_0[2] 15 16 0 #SB_LUT4
+set_location spi.TxData_RNO[2] 15 15 7 #SB_LUT4
+set_location spi.TxData[4] 15 15 4 #SB_DFFE
+set_location spi.SPI_DONE 14 15 2 #SB_DFF
+set_location spi.SCLK_old_RNI5H8V1 14 16 1 #SB_LUT4
+set_location tx[5] 15 14 5 #SB_DFFE
+set_location spi.RxdData[3] 14 14 5 #SB_DFFE
+set_location spi.TxData_RNO[0] 13 15 5 #SB_LUT4
+set_location spi.TxData[6] 15 15 6 #SB_DFFE
+set_location LEDG 13 16 5 #SB_DFFE
+set_location tx[7] 15 14 7 #SB_DFFE
+set_location spi.index[2] 15 16 1 #SB_DFF
+set_location spi.RxdData[5] 14 14 3 #SB_DFFE
+set_location tx[1] 13 16 6 #SB_DFFE
+set_location spi.index[0] 14 16 3 #SB_DFF
+set_location spi.TxData_RNO[7] 15 15 1 #SB_LUT4
+set_location spi.TxData[1] 13 15 0 #SB_DFFE
+set_location spi.RxdData[7] 14 14 6 #SB_DFFE
+set_location spi.index_RNI57R91[2] 14 16 0 #SB_LUT4
+set_location spi.RxdData[0] 15 17 7 #SB_DFFE
+set_location tx[3] 15 14 3 #SB_DFFE
+set_location spi.index_RNO[0] 14 16 3 #SB_LUT4
+set_location spi.TxData_RNO[5] 15 15 0 #SB_LUT4
+set_location spi.TxData[3] 15 15 5 #SB_DFFE
+set_location spi.SCLK_old 14 16 6 #SB_DFF
+set_location tx[4] 15 14 0 #SB_DFFE
+set_location spi.SS_latched 14 16 4 #SB_DFF
+set_location spi.RxdData[2] 14 14 4 #SB_DFFE
+set_location spi.index_RNO[2] 15 16 1 #SB_LUT4
+set_location spi.TxData_RNO[3] 15 15 5 #SB_LUT4
+set_location spi.TxData[5] 15 15 0 #SB_DFFE
+set_location spi.SS_old 14 16 5 #SB_DFF
+set_location spi.SCLK_old_RNIRCN41 14 15 7 #SB_LUT4
+set_location spi.SCLK_latched 15 16 2 #SB_DFF
+set_location GND -1 -1 -1 #GND
+set_location LEDR 13 14 7 #SB_DFF
+set_io SCK 20
+set_io MOSI 26
+set_io MISO 32
+set_io LEDR 4
+set_io clk 35
+set_io SS 27
+set_io LEDG 3

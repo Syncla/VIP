@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Synthesizing work.blink.behavior.
+@N: CL189 :"D:\FPGA Code\blinky\blinky.vhdl":24:8:24:9|Register bit count(23) is always 0.
+@N|Running in 64-bit mode
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+

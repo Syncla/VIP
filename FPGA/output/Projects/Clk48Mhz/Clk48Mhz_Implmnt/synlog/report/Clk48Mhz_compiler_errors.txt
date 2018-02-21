@@ -1,0 +1,3 @@
+@E: CD185 :"D:\FPGA Code\blinky\blinky.vhdl":124:15:124:15|Expecting readable signal name, got output:clk
+@E: Parse errors encountered - exiting
+

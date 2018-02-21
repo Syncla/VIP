@@ -1,0 +1,137 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Thu Feb 01 19:07:52 2018
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     spi_test
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets SCK_c]
+            17 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 995.203ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFSR   C              bit_count_48__i0  (from SCK_c +)
+   Destination:    SB_DFF     D              LEDR_36  (to SCK_c +)
+
+   Delay:                   4.664ns  (25.4% logic, 74.6% route), 3 logic levels.
+
+ Constraint Details:
+
+      4.664ns data_path bit_count_48__i0 to LEDR_36 meets
+    1000.000ns delay constraint less
+      0.133ns L_S requirement (totaling 999.867ns) by 995.203ns
+
+ Path Details: bit_count_48__i0 to LEDR_36
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              bit_count_48__i0 (from SCK_c)
+Route         5   e 1.441                                  bit_count[0]
+LUT4        ---     0.408             I2 to O              i2_3_lut
+Route         1   e 1.020                                  LEDR_N_9
+LUT4        ---     0.408             I2 to O              LEDR_I_0_40_3_lut
+Route         1   e 1.020                                  LEDR_N_7
+                  --------
+                    4.664  (25.4% logic, 74.6% route), 3 logic levels.
+
+
+Passed:  The following path meets requirements by 995.247ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFSR   C              bit_count_48__i1  (from SCK_c +)
+   Destination:    SB_DFF     D              LEDR_36  (to SCK_c +)
+
+   Delay:                   4.620ns  (25.6% logic, 74.4% route), 3 logic levels.
+
+ Constraint Details:
+
+      4.620ns data_path bit_count_48__i1 to LEDR_36 meets
+    1000.000ns delay constraint less
+      0.133ns L_S requirement (totaling 999.867ns) by 995.247ns
+
+ Path Details: bit_count_48__i1 to LEDR_36
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              bit_count_48__i1 (from SCK_c)
+Route         4   e 1.397                                  bit_count[1]
+LUT4        ---     0.408             I0 to O              i2_3_lut
+Route         1   e 1.020                                  LEDR_N_9
+LUT4        ---     0.408             I2 to O              LEDR_I_0_40_3_lut
+Route         1   e 1.020                                  LEDR_N_7
+                  --------
+                    4.620  (25.6% logic, 74.4% route), 3 logic levels.
+
+
+Passed:  The following path meets requirements by 995.305ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFFSR   C              bit_count_48__i2  (from SCK_c +)
+   Destination:    SB_DFF     D              LEDR_36  (to SCK_c +)
+
+   Delay:                   4.562ns  (25.9% logic, 74.1% route), 3 logic levels.
+
+ Constraint Details:
+
+      4.562ns data_path bit_count_48__i2 to LEDR_36 meets
+    1000.000ns delay constraint less
+      0.133ns L_S requirement (totaling 999.867ns) by 995.305ns
+
+ Path Details: bit_count_48__i2 to LEDR_36
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              bit_count_48__i2 (from SCK_c)
+Route         3   e 1.339                                  bit_count[2]
+LUT4        ---     0.408             I1 to O              i2_3_lut
+Route         1   e 1.020                                  LEDR_N_9
+LUT4        ---     0.408             I2 to O              LEDR_I_0_40_3_lut
+Route         1   e 1.020                                  LEDR_N_7
+                  --------
+                    4.562  (25.9% logic, 74.1% route), 3 logic levels.
+
+Report: 4.797 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets SCK_c]                   |  1000.000 ns|     4.797 ns|     3  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  17 paths, 14 nets, and 30 connections (83.3% coverage)
+
+
+Peak memory: 47362048 bytes, TRCE: 794624 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

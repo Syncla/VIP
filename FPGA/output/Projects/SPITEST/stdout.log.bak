@@ -1,0 +1,17 @@
+Running in Lattice mode
+
+Starting:    D:\ICEcube2\synpbase\bin64\mbin\synplify.exe
+Install:     D:\ICEcube2\synpbase
+Hostname:    LAPTOP-6PH9H3C7
+Date:        Mon Feb 05 17:15:56 2018
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro SPITEST_syn.prj
+ProductType: synplify_pro
+
+
+
+
+auto_infer_blackbox is not supported in current product.
+New HDL Analyst: enabled
+exit status=0

@@ -1,0 +1,14 @@
+D:\ICEcube2\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt   -part iCE40UP5K  -package SG48    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\synlog\report\Blinky_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.edf   -autoconstraint  -freq 1.000   D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\synwork\Blinky_prem.srd  -sap  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.sap  -otap  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.tap  -omap  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.map  -devicelib  D:\ICEcube2\synpbase\lib\generic\sb_ice40.v  -sap  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.sap  -ologparam  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\syntmp\Blinky.plg  -osyn  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.srm  -prjdir  D:\ICEcube2\sbt_backend\Projects\Blinky\  -prjname  Blinky_syn  -log  D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\synlog\Blinky_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.edf|io:o|time:1516314634|size:45209|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\synwork\Blinky_prem.srd|io:i|time:1516314632|size:2956|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.sap|io:o|time:1516314633|size:371|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.tap|io:o|time:0|size:0|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.map|io:o|time:1516314634|size:28|exec:0
+file:D:\ICEcube2\synpbase\lib\generic\sb_ice40.v|io:i|time:1516312664|size:224837|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.sap|io:o|time:1516314633|size:371|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\syntmp\Blinky.plg|io:o|time:1516314634|size:446|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\Blinky.srm|io:o|time:1516314633|size:14429|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Blinky\Blinky_Implmnt\synlog\Blinky_fpga_mapper.srr|io:o|time:1516314634|size:25723|exec:0
+file:D:\ICEcube2\synpbase\bin\m_generic.exe|io:i|time:1516312661|size:17853440|exec:1
+file:D:\ICEcube2\synpbase\bin64\m_generic.exe|io:i|time:1516312663|size:32355840|exec:1

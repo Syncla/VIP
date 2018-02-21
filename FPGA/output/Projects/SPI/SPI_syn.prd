@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09L+ice40
+#--  Project file D:\ICEcube2\sbt_backend\Projects\SPI\SPI_syn.prd
+#--  Written on Mon Feb 05 17:33:01 2018
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

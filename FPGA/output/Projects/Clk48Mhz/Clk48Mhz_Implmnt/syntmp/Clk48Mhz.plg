@@ -1,0 +1,17 @@
+@P:  Worst Slack : -1.577
+@P:  Blink|ref_clk - Estimated Frequency : NA
+@P:  Blink|ref_clk - Requested Frequency : 111.9 MHz
+@P:  Blink|ref_clk - Estimated Period : NA
+@P:  Blink|ref_clk - Requested Period : 8.939
+@P:  Blink|ref_clk - Slack : NA
+@P:  mypll|PLLOUTCORE_derived_clock - Estimated Frequency : 95.1 MHz
+@P:  mypll|PLLOUTCORE_derived_clock - Requested Frequency : 111.9 MHz
+@P:  mypll|PLLOUTCORE_derived_clock - Estimated Period : 10.516
+@P:  mypll|PLLOUTCORE_derived_clock - Requested Period : 8.939
+@P:  mypll|PLLOUTCORE_derived_clock - Slack : -1.577
+@P: Blink Part : ice40up5ksg48
+@P: Blink I/O primitives : 3
+@P: Blink I/O Register bits : 0
+@P: Blink Register bits (Non I/O) : 24 (0%)
+@P: Blink Total Luts : 45 (0%)
+@P:  CPU Time : 0h:00m:00s

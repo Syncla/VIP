@@ -1,0 +1,23 @@
+---------------------------------------
+Resource Usage Report for Blink 
+
+Mapping to part: ice40up5ksg48
+Cell usage:
+SB_CARRY        21 uses
+SB_DFF          24 uses
+SB_LUT4         45 uses
+
+I/O ports: 2
+I/O primitives: 2
+SB_GB_IO       1 use
+SB_IO          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   24 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 45 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 45 = 45 
+

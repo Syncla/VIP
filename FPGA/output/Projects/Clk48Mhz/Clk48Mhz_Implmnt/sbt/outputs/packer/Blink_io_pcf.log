@@ -1,0 +1,3 @@
+INPUT  ref_clk 	 location (12, 31, 1) 	 35 	 
+OUTPUT led 	 location (7, 0, 1) 	 45 	 
+OUTPUT clk 	 location (6, 0, 1) 	 44 	 

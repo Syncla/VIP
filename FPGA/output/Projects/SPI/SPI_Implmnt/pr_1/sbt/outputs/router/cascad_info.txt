@@ -1,0 +1,7 @@
+[VIC]
+spi.CO1_0_1_cascade_=ltout:in0
+spi.RxdData_0_sqmuxa_cascade_=ltout:in1
+spi.SPI_DONE_0_sqmuxa_2_cascade_=ltout:in2
+spi.SPI_DONE_0_sqmuxa_cascade_=ltout:in1
+spi.un1_SPI_DONE_0_sqmuxa_1_0_cascade_=ltout:in2
+spi.un3_ss_old_cascade_=ltout:in3

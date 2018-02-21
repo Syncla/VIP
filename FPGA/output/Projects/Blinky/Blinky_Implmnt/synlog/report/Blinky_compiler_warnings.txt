@@ -1,0 +1,3 @@
+@W: CD266 :"D:\FPGA Code\blinky\blinky.vhdl":28:27:28:29|led is not readable.  This may cause a simulation mismatch.
+@W: CL260 :"D:\FPGA Code\blinky\blinky.vhdl":24:8:24:9|Pruning register bit 23 of count(23 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

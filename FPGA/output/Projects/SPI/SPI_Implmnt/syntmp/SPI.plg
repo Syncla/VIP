@@ -1,0 +1,22 @@
+@P:  Worst Slack : 10.328
+@P:  SPI_TEST_MODULE|clk - Estimated Frequency : NA
+@P:  SPI_TEST_MODULE|clk - Requested Frequency : 12.0 MHz
+@P:  SPI_TEST_MODULE|clk - Estimated Period : NA
+@P:  SPI_TEST_MODULE|clk - Requested Period : 83.333
+@P:  SPI_TEST_MODULE|clk - Slack : NA
+@P:  mypll|PLLOUTCORE_derived_clock - Estimated Frequency : 95.2 MHz
+@P:  mypll|PLLOUTCORE_derived_clock - Requested Frequency : 48.0 MHz
+@P:  mypll|PLLOUTCORE_derived_clock - Estimated Period : 10.506
+@P:  mypll|PLLOUTCORE_derived_clock - Requested Period : 20.833
+@P:  mypll|PLLOUTCORE_derived_clock - Slack : 10.328
+@P:  System - Estimated Frequency : 14.1 MHz
+@P:  System - Requested Frequency : 12.0 MHz
+@P:  System - Estimated Period : 70.971
+@P:  System - Requested Period : 83.333
+@P:  System - Slack : 12.362
+@P: SPI_TEST_MODULE Part : ice40up5ksg48
+@P: SPI_TEST_MODULE I/O primitives : 7
+@P: SPI_TEST_MODULE I/O Register bits : 0
+@P: SPI_TEST_MODULE Register bits (Non I/O) : 34 (0%)
+@P: SPI_TEST_MODULE Total Luts : 19 (0%)
+@P:  CPU Time : 0h:00m:00s

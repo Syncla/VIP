@@ -1,0 +1,7 @@
+D:\ICEcube2\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_comp.srs  -osyn  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_mult.srs  -log  D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synlog\Clk48Mhz_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_comp.srs|io:i|time:1516389964|size:5130|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_mult.srs|io:o|time:1516389965|size:2739|exec:0
+file:D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synlog\Clk48Mhz_multi_srs_gen.srr|io:o|time:1516389965|size:760|exec:0
+file:D:\ICEcube2\synpbase\bin\syn_nfilter.exe|io:i|time:1516312662|size:3128320|exec:1
+file:D:\ICEcube2\synpbase\bin64\syn_nfilter.exe|io:i|time:1516312663|size:3947520|exec:1

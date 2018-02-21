@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell spi_test.TECH
+Register bits:  6 of 5280 (0.114%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         3          100.0
+                           SB_DFFSR         3          100.0
+                           SB_GB_IO         1          100.0
+                              SB_IO         4          100.0
+                            SB_LUT4         7          100.0
+                              TOTAL        18

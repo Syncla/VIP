@@ -1,0 +1,4 @@
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Synthesizing work.blink.behavior.
+Post processing for work.blink.behavior
+@N: CL189 :"D:\FPGA Code\blinky\blinky.vhdl":24:8:24:9|Register bit count(23) is always 0.
+@W: CL260 :"D:\FPGA Code\blinky\blinky.vhdl":24:8:24:9|Pruning register bit 23 of count(23 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.

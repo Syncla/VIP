@@ -1,0 +1,84 @@
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":97:7:97:11|Top entity is set to Blink.
+
+File Dependency file is up to date.  It will not be rewritten.
+
+@W: CD266 :"D:\FPGA Code\blinky\blinky.vhdl":134:27:134:29|led is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":97:7:97:11|Synthesizing work.blink.behavior.
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":119:10:119:14|Signal reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":120:9:120:14|Signal bypass is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Synthesizing work.mypll.behavior.
+@W: CD280 :"D:\FPGA Code\blinky\blinky.vhdl":19:10:19:21|Unbound component SB_PLL40_PAD mapped to black box
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":19:10:19:21|Synthesizing work.sb_pll40_pad.syn_black_box.
+Post processing for work.sb_pll40_pad.syn_black_box
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":17:7:17:14|Signal openwire is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Signal openwirebus is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.mypll.behavior
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 0 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 1 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 2 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 3 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 4 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 5 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 6 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL252 :"D:\FPGA Code\blinky\blinky.vhdl":18:7:18:17|Bit 7 of signal openwirebus is floating -- simulation mismatch possible.
+@W: CL240 :"D:\FPGA Code\blinky\blinky.vhdl":17:7:17:14|Signal openwire is floating; a simulation mismatch is possible.
+@W: CL167 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Input extfeedback of instance mypll_inst is floating
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 0 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 1 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 2 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 3 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 4 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 5 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 6 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL245 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Bit 7 of input dynamicdelay of instance mypll_inst is undriven. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL167 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Input latchinputvalue of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Input sdi of instance mypll_inst is floating
+@W: CL167 :"D:\FPGA Code\blinky\blinky.vhdl":60:0:60:9|Input sclk of instance mypll_inst is floating
+Post processing for work.blink.behavior
+@N: CL189 :"D:\FPGA Code\blinky\blinky.vhdl":130:8:130:9|Register bit count(23) is always 0.
+@W: CL260 :"D:\FPGA Code\blinky\blinky.vhdl":130:8:130:9|Pruning register bit 23 of count(23 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 19 14:26:04 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":97:7:97:11|Selected library: work cell: Blink view behavior as top level
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":97:7:97:11|Selected library: work cell: Blink view behavior as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 19 14:26:04 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jan 19 14:26:04 2018
+
+###########################################################]

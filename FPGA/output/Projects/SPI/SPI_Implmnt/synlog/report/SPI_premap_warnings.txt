@@ -1,0 +1,2 @@
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|Removing sequential instance sendData because it is equivalent to instance byteDone. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\fpga code\spi\testspi2.vhd":319:2:319:3|Removing sequential instance byteDone because it is equivalent to instance LEDR. To keep the instance, apply constraint syn_preserve=1 on the instance.

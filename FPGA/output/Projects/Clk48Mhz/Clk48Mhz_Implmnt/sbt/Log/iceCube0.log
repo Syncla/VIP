@@ -1,0 +1,2793 @@
+5:35:06 PM
+"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 17:39:52 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+@E: CD430 :"D:\FPGA Code\blinky\Blinky_pll_inst.vhd":1:0:1:14|Expecting library unit
+@W: CD433 :"D:\FPGA Code\blinky\Blinky_pll_inst.vhd":1:0:1:14|No design units in file
+1 error parsing file D:\FPGA Code\blinky\Blinky_pll_inst.vhd
+@W: CD266 :"D:\FPGA Code\blinky\blinky.vhdl":28:27:28:29|led is not readable.  This may cause a simulation mismatch.
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:39:52 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:39:52 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 17:40:09 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+@W: CD266 :"D:\FPGA Code\blinky\blinky.vhdl":28:27:28:29|led is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Synthesizing work.blink.behavior.
+Post processing for work.blink.behavior
+@N: CL189 :"D:\FPGA Code\blinky\blinky.vhdl":24:8:24:9|Register bit count(23) is always 0.
+@W: CL260 :"D:\FPGA Code\blinky\blinky.vhdl":24:8:24:9|Pruning register bit 23 of count(23 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jan 18 17:40:09 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jan 18 17:40:09 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jan 18 17:40:09 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jan 18 17:40:10 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Jan 18 17:40:11 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz_scck.rpt 
+Printing clock  summary report in "D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=30  set on top level netlist Blink
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start         Requested     Requested     Clock        Clock                     Clock
+Clock         Frequency     Period        Type         Group                     Load 
+--------------------------------------------------------------------------------------
+Blink|clk     213.6 MHz     4.682         inferred     Autoconstr_clkgroup_0     24   
+======================================================================================
+
+@W: MT529 :"d:\fpga code\blinky\blinky.vhdl":24:8:24:9|Found inferred clock Blink|clk which controls 24 sequential elements including count[22:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:40:11 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Jan 18 17:40:11 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.07ns		  46 /        24
+   2		0h:00m:00s		    -2.07ns		  46 /        24
+
+   3		0h:00m:00s		    -2.07ns		  46 /        24
+
+
+   4		0h:00m:00s		    -2.05ns		  46 /        24
+@N: FX1016 :"d:\fpga code\blinky\blinky.vhdl":14:12:14:14|SB_GB_IO inserted on the port clk.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               24         count[0]       
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@W: MT420 |Found inferred clock Blink|clk with period 8.94ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jan 18 17:40:12 2018
+#
+
+
+Top view:               Blink
+Requested Frequency:    111.9 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.577
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+Blink|clk          111.9 MHz     95.1 MHz      8.939         10.516        -1.577     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------
+Starting   Ending     |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------
+Blink|clk  Blink|clk  |  8.939       -1.577  |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Blink|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                       Arrival           
+Instance      Reference     Type       Pin     Net           Time        Slack 
+              Clock                                                            
+-------------------------------------------------------------------------------
+count[8]      Blink|clk     SB_DFF     Q       count[8]      0.796       -1.577
+count[9]      Blink|clk     SB_DFF     Q       count[9]      0.796       -1.505
+count[10]     Blink|clk     SB_DFF     Q       count[10]     0.796       -1.474
+count[18]     Blink|clk     SB_DFF     Q       count[18]     0.796       -1.474
+count[1]      Blink|clk     SB_DFF     Q       count[1]      0.796       -1.416
+count[19]     Blink|clk     SB_DFF     Q       count[19]     0.796       -1.402
+count[11]     Blink|clk     SB_DFF     Q       count[11]     0.796       -1.381
+count[0]      Blink|clk     SB_DFF     Q       count[0]      0.796       -1.223
+count[2]      Blink|clk     SB_DFF     Q       count[2]      0.796       -1.216
+count[3]      Blink|clk     SB_DFF     Q       count[3]      0.796       -1.016
+===============================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                         Required           
+Instance      Reference     Type       Pin     Net             Time         Slack 
+              Clock                                                               
+----------------------------------------------------------------------------------
+count[22]     Blink|clk     SB_DFF     D       count_3[22]     8.784        -1.577
+count[12]     Blink|clk     SB_DFF     D       count_3[12]     8.784        -1.505
+count[13]     Blink|clk     SB_DFF     D       count_3[13]     8.784        -1.505
+count[14]     Blink|clk     SB_DFF     D       count_3[14]     8.784        -1.505
+count[17]     Blink|clk     SB_DFF     D       count_3[17]     8.784        -1.505
+count[20]     Blink|clk     SB_DFF     D       count_3[20]     8.784        -1.505
+count[21]     Blink|clk     SB_DFF     D       count_3[21]     8.784        -1.505
+count[0]      Blink|clk     SB_DFF     D       count_3[0]      8.784        -1.412
+count[5]      Blink|clk     SB_DFF     D       count_3[5]      8.784        -1.412
+count[6]      Blink|clk     SB_DFF     D       count_3[6]      8.784        -1.412
+==================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      8.939
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.784
+
+    - Propagation time:                      10.361
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.577
+
+    Number of logic level(s):                4
+    Starting point:                          count[8] / Q
+    Ending point:                            count[22] / D
+    The start point is clocked by            Blink|clk [rising] on pin C
+    The end   point is clocked by            Blink|clk [rising] on pin C
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+count[8]                        SB_DFF      Q        Out     0.796     0.796       -         
+count[8]                        Net         -        -       1.599     -           3         
+count_RNIOBUR[8]                SB_LUT4     I0       In      -         2.395       -         
+count_RNIOBUR[8]                SB_LUT4     O        Out     0.661     3.056       -         
+op_lt\.op_lt\.count8lto11_2     Net         -        -       1.371     -           1         
+count_RNITTD11[5]               SB_LUT4     I3       In      -         4.427       -         
+count_RNITTD11[5]               SB_LUT4     O        Out     0.465     4.893       -         
+op_lt\.op_lt\.count8lt14        Net         -        -       1.371     -           3         
+count_RNO_0[22]                 SB_LUT4     I0       In      -         6.263       -         
+count_RNO_0[22]                 SB_LUT4     O        Out     0.661     6.925       -         
+count_RNO_0[22]                 Net         -        -       1.371     -           1         
+count_RNO[22]                   SB_LUT4     I2       In      -         8.296       -         
+count_RNO[22]                   SB_LUT4     O        Out     0.558     8.854       -         
+count_3[22]                     Net         -        -       1.507     -           1         
+count[22]                       SB_DFF      D        In      -         10.361      -         
+=============================================================================================
+Total path delay (propagation time + setup) of 10.516 is 3.297(31.4%) logic and 7.219(68.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      8.939
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.784
+
+    - Propagation time:                      10.289
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.505
+
+    Number of logic level(s):                4
+    Starting point:                          count[9] / Q
+    Ending point:                            count[22] / D
+    The start point is clocked by            Blink|clk [rising] on pin C
+    The end   point is clocked by            Blink|clk [rising] on pin C
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+count[9]                        SB_DFF      Q        Out     0.796     0.796       -         
+count[9]                        Net         -        -       1.599     -           3         
+count_RNIOBUR[8]                SB_LUT4     I1       In      -         2.395       -         
+count_RNIOBUR[8]                SB_LUT4     O        Out     0.589     2.984       -         
+op_lt\.op_lt\.count8lto11_2     Net         -        -       1.371     -           1         
+count_RNITTD11[5]               SB_LUT4     I3       In      -         4.355       -         
+count_RNITTD11[5]               SB_LUT4     O        Out     0.465     4.820       -         
+op_lt\.op_lt\.count8lt14        Net         -        -       1.371     -           3         
+count_RNO_0[22]                 SB_LUT4     I0       In      -         6.191       -         
+count_RNO_0[22]                 SB_LUT4     O        Out     0.661     6.853       -         
+count_RNO_0[22]                 Net         -        -       1.371     -           1         
+count_RNO[22]                   SB_LUT4     I2       In      -         8.224       -         
+count_RNO[22]                   SB_LUT4     O        Out     0.558     8.782       -         
+count_3[22]                     Net         -        -       1.507     -           1         
+count[22]                       SB_DFF      D        In      -         10.289      -         
+=============================================================================================
+Total path delay (propagation time + setup) of 10.444 is 3.225(30.9%) logic and 7.219(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      8.939
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.784
+
+    - Propagation time:                      10.289
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.505
+
+    Number of logic level(s):                4
+    Starting point:                          count[8] / Q
+    Ending point:                            count[12] / D
+    The start point is clocked by            Blink|clk [rising] on pin C
+    The end   point is clocked by            Blink|clk [rising] on pin C
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+count[8]                        SB_DFF      Q        Out     0.796     0.796       -         
+count[8]                        Net         -        -       1.599     -           3         
+count_RNIOBUR[8]                SB_LUT4     I0       In      -         2.395       -         
+count_RNIOBUR[8]                SB_LUT4     O        Out     0.661     3.056       -         
+op_lt\.op_lt\.count8lto11_2     Net         -        -       1.371     -           1         
+count_RNITTD11[5]               SB_LUT4     I3       In      -         4.427       -         
+count_RNITTD11[5]               SB_LUT4     O        Out     0.465     4.893       -         
+op_lt\.op_lt\.count8lt14        Net         -        -       1.371     -           3         
+count_RNIRC5U2[15]              SB_LUT4     I2       In      -         6.263       -         
+count_RNIRC5U2[15]              SB_LUT4     O        Out     0.558     6.822       -         
+op_lt\.op_lt\.count8lt17        Net         -        -       1.371     -           6         
+count_RNO[12]                   SB_LUT4     I1       In      -         8.193       -         
+count_RNO[12]                   SB_LUT4     O        Out     0.589     8.782       -         
+count_3[12]                     Net         -        -       1.507     -           1         
+count[12]                       SB_DFF      D        In      -         10.289      -         
+=============================================================================================
+Total path delay (propagation time + setup) of 10.444 is 3.225(30.9%) logic and 7.219(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      8.939
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.784
+
+    - Propagation time:                      10.289
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.505
+
+    Number of logic level(s):                4
+    Starting point:                          count[8] / Q
+    Ending point:                            count[21] / D
+    The start point is clocked by            Blink|clk [rising] on pin C
+    The end   point is clocked by            Blink|clk [rising] on pin C
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+count[8]                        SB_DFF      Q        Out     0.796     0.796       -         
+count[8]                        Net         -        -       1.599     -           3         
+count_RNIOBUR[8]                SB_LUT4     I0       In      -         2.395       -         
+count_RNIOBUR[8]                SB_LUT4     O        Out     0.661     3.056       -         
+op_lt\.op_lt\.count8lto11_2     Net         -        -       1.371     -           1         
+count_RNITTD11[5]               SB_LUT4     I3       In      -         4.427       -         
+count_RNITTD11[5]               SB_LUT4     O        Out     0.465     4.893       -         
+op_lt\.op_lt\.count8lt14        Net         -        -       1.371     -           3         
+count_RNIRC5U2[15]              SB_LUT4     I2       In      -         6.263       -         
+count_RNIRC5U2[15]              SB_LUT4     O        Out     0.558     6.822       -         
+op_lt\.op_lt\.count8lt17        Net         -        -       1.371     -           6         
+count_RNO[21]                   SB_LUT4     I1       In      -         8.193       -         
+count_RNO[21]                   SB_LUT4     O        Out     0.589     8.782       -         
+count_3[21]                     Net         -        -       1.507     -           1         
+count[21]                       SB_DFF      D        In      -         10.289      -         
+=============================================================================================
+Total path delay (propagation time + setup) of 10.444 is 3.225(30.9%) logic and 7.219(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      8.939
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.784
+
+    - Propagation time:                      10.289
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.505
+
+    Number of logic level(s):                4
+    Starting point:                          count[8] / Q
+    Ending point:                            count[20] / D
+    The start point is clocked by            Blink|clk [rising] on pin C
+    The end   point is clocked by            Blink|clk [rising] on pin C
+
+Instance / Net                              Pin      Pin               Arrival     No. of    
+Name                            Type        Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------
+count[8]                        SB_DFF      Q        Out     0.796     0.796       -         
+count[8]                        Net         -        -       1.599     -           3         
+count_RNIOBUR[8]                SB_LUT4     I0       In      -         2.395       -         
+count_RNIOBUR[8]                SB_LUT4     O        Out     0.661     3.056       -         
+op_lt\.op_lt\.count8lto11_2     Net         -        -       1.371     -           1         
+count_RNITTD11[5]               SB_LUT4     I3       In      -         4.427       -         
+count_RNITTD11[5]               SB_LUT4     O        Out     0.465     4.893       -         
+op_lt\.op_lt\.count8lt14        Net         -        -       1.371     -           3         
+count_RNIRC5U2[15]              SB_LUT4     I2       In      -         6.263       -         
+count_RNIRC5U2[15]              SB_LUT4     O        Out     0.558     6.822       -         
+op_lt\.op_lt\.count8lt17        Net         -        -       1.371     -           6         
+count_RNO[20]                   SB_LUT4     I1       In      -         8.193       -         
+count_RNO[20]                   SB_LUT4     O        Out     0.589     8.782       -         
+count_3[20]                     Net         -        -       1.507     -           1         
+count[20]                       SB_DFF      D        In      -         10.289      -         
+=============================================================================================
+Total path delay (propagation time + setup) of 10.444 is 3.225(30.9%) logic and 7.219(69.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for Blink 
+
+Mapping to part: ice40up5kuwg30
+Cell usage:
+SB_CARRY        21 uses
+SB_DFF          24 uses
+SB_LUT4         45 uses
+
+I/O ports: 2
+I/O primitives: 2
+SB_GB_IO       1 use
+SB_IO          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   24 (0%)
+Total load per clock:
+   Blink|clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 45 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 45 = 45 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:40:12 2018
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation Clk48Mhz_Implmnt its sbt path: D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 4 seconds
+
+
+"D:/ICEcube2/sbt_backend/bin/win32/opt\edifparser.exe" "D:\ICEcube2\sbt_backend\devices\ICE40T05.dev" "D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.edf " "D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt\sbt\netlist" "-pUWG30" -c --devicename iCE40UP5K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.edf...
+start to read sdc/scf file D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.scf
+sdc_reader OK D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.scf
+Stored edif netlist at D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt\sbt\netlist\oadb-Blink...
+
+write Timing Constraint to D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: Blink
+
+EDF Parser run-time: 1 (sec)
+edif parser succeed.
+Unrecognizable name Blink
+
+
+"D:/ICEcube2/sbt_backend/bin/win32/opt\edifparser.exe" "D:\ICEcube2\sbt_backend\devices\ICE40T05.dev" "D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.edf " "D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt\sbt\netlist" "-pSG48" -c --devicename iCE40UP5K
+starting edif parserrunning edif parserLattice Semiconductor Corporation  Edif Parser
+Release:        2017.08.27940
+Build Date:     Sep 11 2017 16:51:25
+
+Parsing edif file: D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.edf...
+start to read sdc/scf file D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.scf
+sdc_reader OK D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.scf
+Stored edif netlist at D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt\sbt\netlist\oadb-Blink...
+
+write Timing Constraint to D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt\sbt/Temp/sbt_temp.sdc
+
+EDIF Parser succeeded
+Top module is: Blink
+
+EDF Parser run-time: 0 (sec)
+edif parser succeed.
+Unrecognizable name Blink
+"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 17:46:45 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD430 :"D:\FPGA Code\blinky\blinky.vhdl":21:0:21:14|Expecting library unit
+@E: CD255 :"D:\FPGA Code\blinky\blinky.vhdl":34:15:34:15|No identifier "clk" in scope
+2 errors parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:46:45 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:46:45 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 17:48:29 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD430 :"D:\FPGA Code\blinky\blinky.vhdl":21:0:21:14|Expecting library unit
+@E: CD255 :"D:\FPGA Code\blinky\blinky.vhdl":34:15:34:15|No identifier "clk" in scope
+2 errors parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:48:29 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:48:29 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 17:56:00 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+Options changed - recompiling
+@E: CD430 :"D:\FPGA Code\blinky\blinky.vhdl":21:0:21:14|Expecting library unit
+@E: CD255 :"D:\FPGA Code\blinky\blinky.vhdl":34:15:34:15|No identifier "clk" in scope
+2 errors parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: CD430 :"D:\FPGA Code\blinky\Blinky_pll_inst.vhd":1:0:1:14|Expecting library unit
+@W: CD433 :"D:\FPGA Code\blinky\Blinky_pll_inst.vhd":1:0:1:14|No design units in file
+3 errors parsing file D:\FPGA Code\blinky\Blinky_pll_inst.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:56:00 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:56:00 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 17:59:12 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD430 :"D:\FPGA Code\blinky\blinky.vhdl":21:0:21:14|Expecting library unit
+@E: CD255 :"D:\FPGA Code\blinky\blinky.vhdl":34:15:34:15|No identifier "clk" in scope
+2 errors parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:59:12 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:59:12 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 17:59:27 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@W: CD266 :"D:\FPGA Code\blinky\blinky.vhdl":24:12:24:17|clkout is not readable.  This may cause a simulation mismatch.
+@E: CD185 :"D:\FPGA Code\blinky\blinky.vhdl":24:18:24:18|Expecting readable signal name, got output:clkout
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:59:27 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 17:59:27 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:01:10 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD126 :"D:\FPGA Code\blinky\blinky.vhdl":15:9:15:9|Expecting identifier
+@E: CD169 :"D:\FPGA Code\blinky\blinky.vhdl":20:0:20:14|Illegal declaration
+2 errors parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:01:11 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:01:11 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:02:37 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD169 :"D:\FPGA Code\blinky\blinky.vhdl":20:0:20:14|Illegal declaration
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:02:38 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:02:38 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:03:18 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":24:0:24:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:03:19 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:03:19 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:04:01 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CG103 :"D:\FPGA Code\blinky\blinky.vhdl":20:19:20:20|Expecting expression
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":24:0:24:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+2 errors parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:04:01 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:04:01 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:04:20 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":24:0:24:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:04:20 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:04:20 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:06:21 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":128:7:128:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD632 :"D:\FPGA Code\blinky\blinky.vhdl":9:18:9:19|duplicate entity name blinky_pll
+@E: CD632 :"D:\FPGA Code\blinky\blinky.vhdl":16:21:16:21|duplicate entity name blinky_pll
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":141:0:141:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+3 errors parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:06:22 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:06:22 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:15:36 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":24:0:24:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:15:36 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:15:36 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:18:40 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":24:0:24:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:18:41 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:18:41 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:18:52 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":24:0:24:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:18:52 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:18:52 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:19:04 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":24:0:24:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:19:04 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:19:04 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:21:00 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":26:0:26:3|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:21:00 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:21:00 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:21:31 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:19:25:22|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:21:31 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:21:32 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:22:43 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:19:25:22|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:22:44 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:22:44 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:26:42 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:19:25:22|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:26:42 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:26:42 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:27:01 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:19:25:22|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:27:01 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:27:01 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:27:45 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:19:25:22|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:27:45 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:27:45 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:28:25 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:19:25:22|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:28:25 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:28:25 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:28:55 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD169 :"D:\FPGA Code\blinky\blinky.vhdl":24:1:24:6|Illegal declaration
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:28:55 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:28:55 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:29:10 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD169 :"D:\FPGA Code\blinky\blinky.vhdl":16:2:16:7|Illegal declaration
+@W: CD266 :"D:\FPGA Code\blinky\blinky.vhdl":49:27:49:29|led is not readable.  This may cause a simulation mismatch.
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:29:10 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:29:11 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:29:45 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:20:25:23|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:29:45 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:29:45 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:32:29 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":26:20:26:23|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:32:29 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:32:29 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:37:07 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:20:25:23|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:37:07 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:37:07 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:37:10 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:20:25:23|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:37:10 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:37:10 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:37:38 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@W: CD266 :"D:\FPGA Code\blinky\blinky.vhdl":33:27:33:29|led is not readable.  This may cause a simulation mismatch.
+VHDL syntax check successful!
+@N: CD630 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Synthesizing work.blink.behavior.
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":20:9:20:13|Signal reset is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\FPGA Code\blinky\blinky.vhdl":21:8:21:10|Signal clk is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.blink.behavior
+@W: CL240 :"D:\FPGA Code\blinky\blinky.vhdl":21:8:21:10|Signal clk is floating; a simulation mismatch is possible.
+@N: CL189 :"D:\FPGA Code\blinky\blinky.vhdl":29:8:29:9|Register bit count(23) is always 0.
+@W: CL260 :"D:\FPGA Code\blinky\blinky.vhdl":29:8:29:9|Pruning register bit 23 of count(23 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL154 :"D:\FPGA Code\blinky\blinky.vhdl":29:8:29:9|Clock on register led tied to a constant
+@W: CL154 :"D:\FPGA Code\blinky\blinky.vhdl":29:8:29:9|Clock on register count tied to a constant
+@N: CL159 :"D:\FPGA Code\blinky\blinky.vhdl":14:12:14:18|Input ref_clk is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jan 18 18:37:39 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jan 18 18:37:39 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jan 18 18:37:39 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_comp.srs changed - recompiling
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+@N: NF107 :"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Selected library: work cell: Blink view behavior as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Jan 18 18:37:40 2018
+
+###########################################################]
+Pre-mapping Report
+
+# Thu Jan 18 18:37:40 2018
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz_scck.rpt 
+Printing clock  summary report in "D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=30  set on top level netlist Blink
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start     Requested     Requested     Clock     Clock     Clock
+Clock     Frequency     Period        Type      Group     Load 
+---------------------------------------------------------------
+===============================================================
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:37:40 2018
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Jan 18 18:37:41 2018
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[1] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[2] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[3] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[4] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[6] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[7] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[8] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[9] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[10] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[11] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[12] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[13] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[14] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[15] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[16] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[17] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[18] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[19] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[20] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[21] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Sequential instance count[22] is reduced to a combinational gate by constant propagation.
+@N: BN362 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Removing sequential instance led (in view: work.Blink(behavior)) because it does not drive other instances.
+@A: BN291 :"d:\fpga code\blinky\blinky.vhdl":29:8:29:9|Boundary register led (in view: work.Blink(behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 133MB)
+
+Writing Analyst data base D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\synwork\Clk48Mhz_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\ICEcube2\sbt_backend\Projects\Clk48Mhz\Clk48Mhz_Implmnt\Clk48Mhz.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jan 18 18:37:41 2018
+#
+
+
+Top view:               Blink
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+---------------------------------------
+Resource Usage Report for Blink 
+
+Mapping to part: ice40up5ksg48
+Cell usage:
+SB_LUT4         0 uses
+
+I/O ports: 2
+I/O primitives: 1
+SB_IO          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+Total load per clock:
+
+@S |Mapping Summary:
+Total  LUTs: 0 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:37:41 2018
+
+###########################################################]
+
+
+Synthesis exit by 0.
+Current Implementation Clk48Mhz_Implmnt its sbt path: D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt\sbt
+Clk48Mhz_Implmnt: newer file D:/ICEcube2/sbt_backend/Projects/Clk48Mhz/Clk48Mhz_Implmnt/Clk48Mhz.edf detected. Need to run "Import P&R Input Files"
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 4 seconds
+"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:37:58 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:20:25:23|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:37:59 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:37:59 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:38:19 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD213 :"D:\FPGA Code\blinky\blinky.vhdl":26:1:26:12|Undefined identifier
+@W: CD266 :"D:\FPGA Code\blinky\blinky.vhdl":38:27:38:29|led is not readable.  This may cause a simulation mismatch.
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:38:19 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:38:19 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:38:39 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":11:7:11:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":25:29:25:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:38:39 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:38:39 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:40:03 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD169 :"D:\FPGA Code\blinky\blinky.vhdl":18:1:18:15|Illegal declaration
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:40:03 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:40:03 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:40:29 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD169 :"D:\FPGA Code\blinky\blinky.vhdl":23:0:23:14|Illegal declaration
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:40:29 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:40:29 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:40:45 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":20:29:20:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:40:46 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:40:46 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:41:33 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD218 :"D:\FPGA Code\blinky\blinky.vhdl":16:8:16:10|Declaration hides port clk
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":21:29:21:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+2 errors parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:41:33 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:41:33 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:41:51 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":20:29:20:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:41:52 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:41:52 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:42:20 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":17:29:17:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:42:20 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:42:20 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:43:04 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":17:29:17:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:43:04 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:43:04 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:43:41 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD214 :"D:\FPGA Code\blinky\blinky.vhdl":17:18:17:27|Not a concurrent statement
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:43:41 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:43:41 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:43:51 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":17:29:17:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:43:51 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:43:51 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:44:16 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":17:29:17:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:44:16 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:44:16 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:44:28 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":18:29:18:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:44:28 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:44:28 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"D:\ICEcube2\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Clk48Mhz_syn.prj" -log "Clk48Mhz_Implmnt/Clk48Mhz.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Clk48Mhz_Implmnt/Clk48Mhz.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: D:\ICEcube2\synpbase
+#OS: Windows 8 6.2
+#Hostname: LAPTOP-6PH9H3C7
+
+# Thu Jan 18 18:45:02 2018
+
+#Implementation: Clk48Mhz_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"D:\ICEcube2\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\FPGA Code\blinky\blinky.vhdl":5:7:5:11|Top entity is set to Blink.
+File D:\FPGA Code\blinky\blinky.vhdl changed - recompiling
+@E: CD879 :"D:\FPGA Code\blinky\blinky.vhdl":18:29:18:32|Illegal concurrent statement. Possible missing component declaration for blinky_pll
+1 error parsing file D:\FPGA Code\blinky\blinky.vhdl
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:45:02 2018
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Jan 18 18:45:02 2018
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds6:45:12 PM
