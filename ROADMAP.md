@@ -15,3 +15,5 @@ Resources
 [Rick and Morty VR talk](https://www.youtube.com/watch?v=7aqIbeQQL8c), this might have some interesting things to implement regarding portals/mirrors
 
 [Another VR Door Experiment](https://www.youtube.com/watch?v=uenAkPLUwBE)
+
+[Tilt Brush SDK Docs](https://docs.google.com/document/d/1YID89te9oDjinCkJ9R65bLZ3PpJk1W4S1SM2Ccc6-9w/edit)
